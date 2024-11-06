@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(55, 0, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    width: 99%;
+    display: flex;
+    justify-content: center;   
+}
+
+.container{
+    box-sizing: border-box;
+    border: solid black 1px;
+    width: 300px;
+    height: 470px;
+    background-color: rgb(228, 228, 228);
+    margin-top: 95px ;
+}
+
+#bmiform{
+    margin-left: 10px;
+}
+h2{
+    color: black;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 9px;
+}
+
+select, input{
+    width: 260px;
+    padding: 5px;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0px 0px 3px  rgb(64, 107, 201);
+}
+
+#gender, input[type = "submit"] {
+    width: 274px;
+}
+
+#height-inches{
+    margin-top:7px;
+}
+
+input[type = "submit"]{
+    margin-top: 20px;
+    background-color:rgb(59, 59, 248) ;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+#submit:hover{
+    background-color:rgb(55, 0, 255) ;
+}
+
+#result{
+    font-weight: bold;
+    margin-top: 20px;
+    color: rgb(55, 0, 255);
+    margin-left: 10px;
+}
+
+
